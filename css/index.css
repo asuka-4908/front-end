@@ -1,0 +1,505 @@
+.main {
+  width: 981px;
+  height: 456px;
+  margin: 10px 0 0 219px;
+
+}
+
+.focus {
+  position: relative;
+  width: 721px;
+  height: 455px;
+}
+
+.arrow-l,
+.arrow-r {
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  height: 40px;
+  width: 22px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 40px;
+  font-family: 'icomoon';
+  font-size: 22px;
+  color: #fff;
+}
+
+.arrow-l {
+  left: 0;
+  border-radius: 0 7px 7px 0;
+}
+
+.arrow-r {
+  right: 0;
+  border-radius: 7px 0 0 7px;
+}
+
+.circle {
+  position: absolute;
+  bottom: 8px;
+  left: 50px;
+}
+
+.circle li {
+  float: left;
+  height: 10px;
+  width: 10px;
+  margin: 0 1px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.current {
+  height: 15px;
+  width: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 6px solid rgba(255, 255, 255, 0.3);
+}
+
+.newsflash {
+  width: 250px;
+  height: 454px;
+  /* border: 2px solid #e4e4e4; */
+}
+
+.news {
+  height: 163px;
+  width: 250px;
+  border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+  height: 32px;
+  line-height: 31px;
+  border-bottom: 1px dotted #e4e4e4;
+  font-size: 14px;
+  padding: 0 16px;
+}
+
+.news-hd a {
+  float: right;
+  font-family: 'icomoon';
+}
+
+.news-bd {
+  margin: 8px 0 0 13px;
+}
+
+.news-bd li {
+  height: 24px;
+}
+
+.lifeservice {
+  width: 252px;
+  height: 208px;
+  border-left: 1px solid #e4e4e4;
+
+}
+
+
+.lifeservice a {
+  float: left;
+  height: 69px;
+  width: 62.3px;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+}
+
+.lifeservice p {
+  text-align: center;
+}
+
+.service_ico {
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin: 15px auto 5px;
+}
+
+.lifeservice .service_ico_huafei {
+  background: url(../img/icons.png)-17px -16px;
+}
+
+.lifeservice .service_ico_jipiao {
+  background: url(../img/icons.png)-77px -16px;
+}
+
+.lifeservice li {
+  position: relative;
+  float: left;
+}
+
+.jian {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 12px;
+  height: 16px;
+  background: url(../img/jian.jpg) no-repeat;
+}
+
+.lifeservice .service_ico_dianying {
+  background: url(../img/icons.png)-142px -16px;
+}
+
+.lifeservice .service_ico_youxi {
+  width: 28px;
+  background: url(../img/icons.png)-203px -16px;
+}
+
+.lifeservice .service_ico_caipiao {
+  background: url(../img/icons.png)-17px -88px;
+}
+
+.lifeservice .service_ico_jiayou {
+  background: url(../img/icons.png)-77px -88px;
+}
+
+.lifeservice .service_ico_jiudian {
+  background: url(../img/icons.png)-142px -88px;
+}
+
+.lifeservice .service_ico_huoche {
+  background: url(../img/icons.png)-203px -88px;
+}
+
+.lifeservice .service_ico_zhongchou {
+  background: url(../img/icons.png)-17px -159px;
+}
+
+.lifeservice .service_ico_licai {
+  background: url(../img/icons.png)-77px -159px;
+}
+
+.lifeservice .service_ico_lipin {
+  background: url(../img/icons.png)-142px -155px;
+}
+
+.lifeservice .service_ico_baitiao {
+  background: url(../img/icons.png)-203px -159px;
+}
+
+.bargain {
+  height: 75px;
+  margin-top: 9px;
+  background: url(../upload/ad.jpg) no-repeat;
+}
+
+/* recommend */
+
+.recommend {
+  height: 163px;
+  margin-top: 10px;
+}
+
+.recom-hd {
+  width: 206px;
+  height: 163px;
+  background-color: #5c5251;
+}
+
+.recom-hd img {
+  width: 57px;
+  height: 57px;
+  margin: 31px 81px 10px 68px;
+}
+
+.recom-hd h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 60px;
+  font-weight: normal;
+}
+
+.recom-bd {
+  width: 994px;
+  height: 163px;
+  background-color: #ebebeb;
+}
+
+.recom-bd li {
+  float: left;
+  margin-top: 10px;
+  width: 248px;
+  height: 143px;
+  border-right: 1px solid #dddddd;
+}
+
+/* 猜你喜欢like */
+.like {
+  height: 266px;
+  margin-top: 26px;
+}
+
+.like-hd {
+  width: 1200px;
+  height: 33px;
+}
+
+.like-hd h3 {
+  float: left;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.like-hd a {
+  float: right;
+  margin-right: 20px;
+  line-height: 33px;
+  font-family: 'icomoon';
+}
+
+.like-bd .like-text {
+  width: 199px;
+  padding: 0 39px 0 28px;
+  border-right: 1px solid #ededed;
+}
+
+.like-bd {
+  width: 1200px;
+  height: 233px;
+  border: 1px solid #ededed;
+}
+
+.like-bd li {
+  float: left;
+  width: 199px;
+}
+
+.like-bd h3 {
+  color: #df3033;
+  font-size: 18px;
+}
+
+.like-bd a {
+  display: block;
+  padding: 10px 39px 0 28px;
+}
+
+/* 传智播客 有趣区interest */
+.interest {
+  height: 434px;
+  margin-top: 30px;
+}
+
+.interest-hd h3 {
+  height: 28px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.interest-bd {
+  height: 406px;
+  border: solid 1px #ededed;
+}
+
+.interest-con li {
+  float: left;
+}
+
+.things {
+  width: 227px;
+  border-left: 1px solid #ededed;
+}
+
+.things h5 {
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 1px dashed #ededed;
+  margin: 0 15px 0;
+}
+
+.pinpai {
+  width: 405px;
+  background-color: #f7f7f7;
+  border-left: 1px solid #ededed
+}
+
+.pinpai h5 {
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 1px dashed #ededed;
+  margin: 0 15px 0;
+}
+
+.interest-brand {
+  height: 405px;
+  width: 160px;
+}
+
+.interest-brand li {
+  float: left;
+  height: 58px;
+  width: 79px;
+  line-height: 56px;
+  border-bottom: 1px dashed #ededed;
+}
+
+.interest-brand img {
+  width: 100%;
+}
+
+.interest-brand ul li:nth-child(odd) {
+  border-right: 1px dashed #ededed;
+}
+
+.interest-brand ul li:nth-child(13) {
+  border-bottom: none;
+}
+
+.interest-brand ul li:nth-child(14) {
+  border-bottom: none;
+}
+
+/* 楼层区floor */
+.box-hd {
+  height: 30px;
+  border-bottom: 2px solid #c81623;
+  margin-top: 29px;
+}
+
+.tab-list li {
+  float: left;
+}
+
+.tab-list a {
+  padding: 0 12px;
+}
+
+.tab-con li {
+  float: left;
+}
+
+.box-bd {
+  height: 360px;
+}
+
+.tab-con-list {
+  height: 98px;
+  margin-top: 6px;
+}
+
+.tab-con-list li {
+  height: 32px;
+  width: 104.5px;
+  float: left;
+  text-align: center;
+  line-height: 32px;
+  padding-left: 10px;
+}
+
+.tab-con-list a {
+  display: block;
+  width: 85px;
+  border-bottom: 1px solid #ededed;
+}
+
+.brand {
+  height: 65px;
+  margin-top: 20px;
+  background-color: #f7f7f7;
+}
+
+.brand li {
+  float: left;
+  width: 110px;
+  height: 40px;
+  margin: 15px 0 0 10px;
+  border-right: 1px solid #ededed;
+}
+
+/* 固定电梯导航fixedtool */
+.fixedtool {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  margin-left: -676px;
+  width: 66px;
+  background-color: #fff;
+}
+
+.fixedtool li {
+  width: 66px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+
+}
+
+.fixedtool span {
+  border-bottom: 1px solid #ededed;
+  padding: 9px 2px;
+}
+
+.fixedtool .current {
+  color: #fff;
+  background-color: #c81623;
+  border: none;
+}
+
+/* 热门疯抢hot */
+.hot {
+  height: 300spx;
+  margin-top: 16px;
+}
+
+.hot-hd {
+  height: 32px;
+}
+
+.hot-hd h3 {
+  font-size: 18px;
+  color: #333333;
+  font-weight: normal;
+}
+
+.hot-bd {
+  height: 282px;
+  border: 1px solid #ededed;
+}
+
+.hot-con {
+  float: left;
+}
+
+.hot-con li {
+  float: left;
+  height: 141px;
+  width: 220px;
+  border-right: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+
+.hot-con li img {
+  float: left;
+  padding-top: 15px;
+}
+
+.hot-con li p {
+  padding-top: 20px;
+}
+
+.hot-text h3 {
+  font-size: 16px;
+  color: #df3033;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+/* 添加鼠标经过图片 图片上移的过渡效果 */
+.like-bd img,
+.hot-bd img {
+  transition: all 0.5s;
+}
+
+.like-bd img:hover,
+.hot-bd img:hover {
+  margin-top: -10px;
+}
